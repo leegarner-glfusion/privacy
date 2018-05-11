@@ -1,0 +1,14 @@
+<div class="uk-form-row">
+	<label class="uk-form-label" for="export">{lang_personal_data}</label>
+	<div class="uk-form-controls">
+		<a class="uk-button uk-button-danger" href="{site_url}/privacy/export.php?t={token}">
+			{lang_download}
+		</a>
+		<div class="uk-form-help-block uk-margin-small-left">
+			<span class="uk-text-muted uk-text-small">
+				{lang_download_help}
+				<span id="name-count" class="uk-text-muted uk-text-small"></span>
+			</span>
+		</div>
+	</div>
+</div>

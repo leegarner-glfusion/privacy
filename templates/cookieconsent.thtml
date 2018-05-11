@@ -1,0 +1,25 @@
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#252e39",
+			"text": "#fff"
+    },
+    "button": {
+      "background": "#f1d600",
+      "text": "#000"
+    }
+  },
+{!if theme}
+  "theme": "{theme}",
+{!endif}
+  "position": "{position}",
+{!if static}
+  "static": true,
+{!endif}
+  "content": {
+    "href": "{showlink}"
+  }
+})});
+</script>
